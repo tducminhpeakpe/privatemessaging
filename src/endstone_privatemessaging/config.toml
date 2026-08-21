@@ -1,0 +1,15 @@
+prefix = "&a&lPrivateMessaging&r"
+fuzzy_match = true
+suggestion_limit = 5
+log_messages = true
+
+[messages]
+usage = "&4Lệnh Sai. Nhập /help để xem tất cả lệnh."
+player_not_found = "&6Người chơi &e'{query}' &6không tìm thấy."
+cannot_message_self = "&6Bạn không thể tự nhắn tin cho chính mình."
+no_reply_target = "&6Không có ai để trả lời."
+target_offline = "&e'{target}' &6đang ngoại tuyến."
+console_cannot_reply = "&4Chỉ người chơi mới có thể sử dụng /r - /reply."
+did_you_mean = "&6Ý bạn là: &e'{list}'"
+message_to_sender = "&5đến {target}: {message}"
+message_to_target = "&5{sender} thì thầm: {message}"

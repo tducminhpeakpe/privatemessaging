@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-privatemessaging"
+version = "1.0.0"
+description = "Python plugin"
+
+[project.entry-points."endstone"]
+privatemessaging = "endstone_privatemessaging.privatemessaging:PrivateMessaging"
+
+[project.optional-dependencies]
+dev = [
+    "endstone",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/endstone_privatemessaging"]
+include = [
+    "src/endstone_privatemessaging/*.toml"
+]
